@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tour start="node2">
+  <panorama id="node2">
+    <view fovmode="0" pannorth="0">
+      <start pan="0" fov="70" tilt="0"/>
+      <min pan="0" fov="5" tilt="-90"/>
+      <max pan="360" fov="120" tilt="90"/>
+    </view>
+    <userdata title="Парк Жилибера Вечный огонь" datetime="" description="" copyright="" tags="" author="" source="" comment="" info="" longitude="" latitude=""/>
+    <hotspots width="180" height="20" wordwrap="1">
+      <label width="180" backgroundalpha="1" enabled="1" height="20" backgroundcolor="0xffffff" bordercolor="0x000000" border="1" textcolor="0x000000" background="1" borderalpha="1" borderradius="1" wordwrap="1" textalpha="1"/>
+      <polystyle mode="0" backgroundalpha="0.2509803921568627" backgroundcolor="0x0000ff" bordercolor="0x0000ff" borderalpha="1"/>
+      <hotspot title="Парк Жилибера Старый корпус ГРГУ" target="84/30.5/70" pan="58.4181" skinid="" url="{node1}" id="Point01" tilt="-1.99907"/>
+      <hotspot title="Парк Жилибера Мостик молодоженов" target="57.5/-34.5/70" pan="-3.68503" skinid="" url="{node3}" id="Point02" tilt="-3.13646"/>
+      <hotspot title="Парк Жилибера памятник Тызенгаузу" target="30/-0.5/70" pan="23.7348" skinid="" url="{node6}" id="Point03" tilt="-2.36315"/>
+    </hotspots>
+    <media/>
+    <input tile0url="images/вечный огонь_o_0.jpg" prev5url="images/вечный огонь_o_preview_5.jpg" prev4url="images/вечный огонь_o_preview_4.jpg" prev3url="images/вечный огонь_o_preview_3.jpg" prev2url="images/вечный огонь_o_preview_2.jpg" prev1url="images/вечный огонь_o_preview_1.jpg" prev0url="images/вечный огонь_o_preview_0.jpg" tile5url="images/вечный огонь_o_5.jpg" tilesize="2561" tile4url="images/вечный огонь_o_4.jpg" tile3url="images/вечный огонь_o_3.jpg" tilescale="1.003904724716908" tile2url="images/вечный огонь_o_2.jpg" tile1url="images/вечный огонь_o_1.jpg">
+      <preview color="0x808080"/>
+    </input>
+    <control simulatemass="1" lockedmouse="0" lockedkeyboard="0" dblclickfullscreen="0" invertwheel="0" lockedwheel="0" invertcontrol="1" speedwheel="1" sensitivity="8"/>
+  </panorama>
+  <panorama id="node1">
+    <view fovmode="0" pannorth="0">
+      <start pan="0" fov="70" tilt="0"/>
+      <min pan="0" fov="5" tilt="-90"/>
+      <max pan="360" fov="120" tilt="90"/>
+    </view>
+    <userdata title="Парк Жилибера Старый корпус ГРГУ" datetime="" description="" copyright="" tags="" author="" source="" comment="" info="" longitude="" latitude=""/>
+    <hotspots width="180" height="20" wordwrap="1">
+      <label width="180" backgroundalpha="1" enabled="1" height="20" backgroundcolor="0xffffff" bordercolor="0x000000" border="1" textcolor="0x000000" background="1" borderalpha="1" borderradius="1" wordwrap="1" textalpha="1"/>
+      <polystyle mode="0" backgroundalpha="0.2509803921568627" backgroundcolor="0x0000ff" bordercolor="0x0000ff" borderalpha="1"/>
+      <hotspot title="Парк Жилибера Живая арка" target="89/90/70" pan="-169.308" skinid="" url="{node4}" id="Point01" tilt="-0.8106950000000001"/>
+      <hotspot title="Парк Жилибера Городничанка" target="" pan="-117.211" skinid="" url="{node5}" id="Point02" tilt="-0.610206"/>
+      <hotspot title="Парк Жилибера Мостик молодоженов" target="" pan="167.762" skinid="" url="{node3}" id="Point03" tilt="-0.958085"/>
+    </hotspots>
+    <media/>
+    <input tile0url="images/виноградное здание_o_0.jpg" prev5url="images/виноградное здание_o_preview_5.jpg" prev4url="images/виноградное здание_o_preview_4.jpg" prev3url="images/виноградное здание_o_preview_3.jpg" prev2url="images/виноградное здание_o_preview_2.jpg" prev1url="images/виноградное здание_o_preview_1.jpg" prev0url="images/виноградное здание_o_preview_0.jpg" tile5url="images/виноградное здание_o_5.jpg" tilesize="2561" tile4url="images/виноградное здание_o_4.jpg" tile3url="images/виноградное здание_o_3.jpg" tilescale="1.003904724716908" tile2url="images/виноградное здание_o_2.jpg" tile1url="images/виноградное здание_o_1.jpg">
+      <preview color="0x808080"/>
+    </input>
+    <control simulatemass="1" lockedmouse="0" lockedkeyboard="0" dblclickfullscreen="0" invertwheel="0" lockedwheel="0" invertcontrol="1" speedwheel="1" sensitivity="8"/>
+  </panorama>
+  <panorama id="node3">
+    <view fovmode="0" pannorth="0">
+      <start pan="0" fov="70" tilt="0"/>
+      <min pan="0" fov="5" tilt="-90"/>
+      <max pan="360" fov="120" tilt="90"/>
+    </view>
+    <userdata title="Парк Жилибера Мостик молодоженов" datetime="" description="" copyright="" tags="" author="" source="" comment="" info="" longitude="" latitude=""/>
+    <hotspots width="180" height="20" wordwrap="1">
+      <label width="180" backgroundalpha="1" enabled="1" height="20" backgroundcolor="0xffffff" bordercolor="0x000000" border="1" textcolor="0x000000" background="1" borderalpha="1" borderradius="1" wordwrap="1" textalpha="1"/>
+      <polystyle mode="0" backgroundalpha="0.2509803921568627" backgroundcolor="0x0000ff" bordercolor="0x0000ff" borderalpha="1"/>
+      <hotspot title="Парк Жилибера памятник Тызенгаузу" target="34/-0.5/70" pan="178.691" skinid="" url="{node6}" id="Point01" tilt="-15.4657"/>
+      <hotspot title="Парк Жилибера Старый корпус ГРГУ" target="85/31.5/70" pan="-121.195" skinid="" url="{node1}" id="Point02" tilt="-2.03533"/>
+      <hotspot title="Парк Жилибера Вечный огонь" target="92.5/2.5/70" pan="-41.1157" skinid="" url="{node2}" id="Point03" tilt="4.09796"/>
+    </hotspots>
+    <media/>
+    <input tile0url="images/мостик молодоженов_o_0.jpg" prev5url="images/мостик молодоженов_o_preview_5.jpg" prev4url="images/мостик молодоженов_o_preview_4.jpg" prev3url="images/мостик молодоженов_o_preview_3.jpg" prev2url="images/мостик молодоженов_o_preview_2.jpg" prev1url="images/мостик молодоженов_o_preview_1.jpg" prev0url="images/мостик молодоженов_o_preview_0.jpg" tile5url="images/мостик молодоженов_o_5.jpg" tilesize="2561" tile4url="images/мостик молодоженов_o_4.jpg" tile3url="images/мостик молодоженов_o_3.jpg" tilescale="1.003904724716908" tile2url="images/мостик молодоженов_o_2.jpg" tile1url="images/мостик молодоженов_o_1.jpg">
+      <preview color="0x808080"/>
+    </input>
+    <control simulatemass="1" lockedmouse="0" lockedkeyboard="0" dblclickfullscreen="0" invertwheel="0" lockedwheel="0" invertcontrol="1" speedwheel="1" sensitivity="8"/>
+  </panorama>
+  <panorama id="node4">
+    <view fovmode="0" pannorth="0">
+      <start pan="0" fov="70" tilt="0"/>
+      <min pan="0" fov="5" tilt="-90"/>
+      <max pan="360" fov="120" tilt="90"/>
+    </view>
+    <userdata title="Парк Жилибера Живая арка" datetime="" description="" copyright="" tags="" author="" source="" comment="" info="" longitude="" latitude=""/>
+    <hotspots width="180" height="20" wordwrap="1">
+      <label width="180" backgroundalpha="1" enabled="1" height="20" backgroundcolor="0xffffff" bordercolor="0x000000" border="1" textcolor="0x000000" background="1" borderalpha="1" borderradius="1" wordwrap="1" textalpha="1"/>
+      <polystyle mode="0" backgroundalpha="0.2509803921568627" backgroundcolor="0x0000ff" bordercolor="0x0000ff" borderalpha="1"/>
+      <hotspot title="Парк Жилибера Старый корпус ГРГУ" target="180.5/0/70" pan="96.08799999999999" skinid="" url="{node1}" id="Point01" tilt="5.63447"/>
+      <hotspot title="Парк Жилибера памятник Тызенгаузу" target="23.5/1.5/70" pan="-50.3922" skinid="" url="{node6}" id="Point02" tilt="-1.03571"/>
+      <hotspot title="Парк Жилибера Городничанка" target="307/-17.5/70" pan="33.3754" skinid="" url="{node5}" id="Point03" tilt="-0.313106"/>
+      <hotspot title="Парк Жилибера Мостик молодоженов" target="57/-35.5/70" pan="-117.763" skinid="" url="{node3}" id="Point04" tilt="-1.6871"/>
+    </hotspots>
+    <media/>
+    <input tile0url="images/живая арка_o_0.jpg" prev5url="images/живая арка_o_preview_5.jpg" prev4url="images/живая арка_o_preview_4.jpg" prev3url="images/живая арка_o_preview_3.jpg" prev2url="images/живая арка_o_preview_2.jpg" prev1url="images/живая арка_o_preview_1.jpg" prev0url="images/живая арка_o_preview_0.jpg" tile5url="images/живая арка_o_5.jpg" tilesize="2561" tile4url="images/живая арка_o_4.jpg" tile3url="images/живая арка_o_3.jpg" tilescale="1.003904724716908" tile2url="images/живая арка_o_2.jpg" tile1url="images/живая арка_o_1.jpg">
+      <preview color="0x808080"/>
+    </input>
+    <control simulatemass="1" lockedmouse="0" lockedkeyboard="0" dblclickfullscreen="0" invertwheel="0" lockedwheel="0" invertcontrol="1" speedwheel="1" sensitivity="8"/>
+  </panorama>
+  <panorama id="node5">
+    <view fovmode="0" pannorth="0">
+      <start pan="0" fov="70" tilt="0"/>
+      <min pan="0" fov="5" tilt="-90"/>
+      <max pan="360" fov="120" tilt="90"/>
+    </view>
+    <userdata title="Парк Жилибера Городничанка" datetime="" description="" copyright="" tags="" author="" source="" comment="" info="" longitude="" latitude=""/>
+    <hotspots width="180" height="20" wordwrap="1">
+      <label width="180" backgroundalpha="1" enabled="1" height="20" backgroundcolor="0xffffff" bordercolor="0x000000" border="1" textcolor="0x000000" background="1" borderalpha="1" borderradius="1" wordwrap="1" textalpha="1"/>
+      <polystyle mode="0" backgroundalpha="0.2509803921568627" backgroundcolor="0x0000ff" bordercolor="0x0000ff" borderalpha="1"/>
+      <hotspot title="Парк Жилибера Старый корпус ГРГУ" target="88/28.5/70" pan="71.61539999999999" skinid="" url="{node1}" id="Point01" tilt="14.426"/>
+      <hotspot title="Парк Жилибера Живая арка" target="358/89/70" pan="163.283" skinid="" url="{node4}" id="Point02" tilt="5.50953"/>
+      <hotspot title="Парк Жилибера памятник Тызенгаузу" target="16/0/70" pan="-137.617" skinid="" url="{node6}" id="Point03" tilt="3.45236"/>
+    </hotspots>
+    <media/>
+    <input tile0url="images/городничанка_o_0.jpg" prev5url="images/городничанка_o_preview_5.jpg" prev4url="images/городничанка_o_preview_4.jpg" prev3url="images/городничанка_o_preview_3.jpg" prev2url="images/городничанка_o_preview_2.jpg" prev1url="images/городничанка_o_preview_1.jpg" prev0url="images/городничанка_o_preview_0.jpg" tile5url="images/городничанка_o_5.jpg" tilesize="2561" tile4url="images/городничанка_o_4.jpg" tile3url="images/городничанка_o_3.jpg" tilescale="1.003904724716908" tile2url="images/городничанка_o_2.jpg" tile1url="images/городничанка_o_1.jpg">
+      <preview color="0x808080"/>
+    </input>
+    <control simulatemass="1" lockedmouse="0" lockedkeyboard="0" dblclickfullscreen="0" invertwheel="0" lockedwheel="0" invertcontrol="1" speedwheel="1" sensitivity="8"/>
+  </panorama>
+  <panorama id="node6">
+    <view fovmode="0" pannorth="0">
+      <start pan="0" fov="70" tilt="0"/>
+      <min pan="0" fov="5" tilt="-90"/>
+      <max pan="360" fov="120" tilt="90"/>
+    </view>
+    <userdata title="Парк Жилибера памятник Тызенгаузу" datetime="" description="" copyright="" tags="" author="" source="" comment="" info="" longitude="" latitude=""/>
+    <hotspots width="180" height="20" wordwrap="1">
+      <label width="180" backgroundalpha="1" enabled="1" height="20" backgroundcolor="0xffffff" bordercolor="0x000000" border="1" textcolor="0x000000" background="1" borderalpha="1" borderradius="1" wordwrap="1" textalpha="1"/>
+      <polystyle mode="0" backgroundalpha="0.2509803921568627" backgroundcolor="0x0000ff" bordercolor="0x0000ff" borderalpha="1"/>
+      <hotspot title="Парк Жилибера Мостик молодоженов" target="58.5/-30/70" pan="-164.29" skinid="" url="{node3}" id="Point01" tilt="-0.867641"/>
+      <hotspot title="Парк Жилибера Городничанка" target="308.5/-25/70" pan="92.16719999999999" skinid="" url="{node5}" id="Point02" tilt="1.43376"/>
+      <hotspot title="Парк Жилибера Старый корпус ГРГУ" target="86.5/28.5/70" pan="133.013" skinid="" url="{node1}" id="Point03" tilt="3.0341"/>
+    </hotspots>
+    <media/>
+    <input tile0url="images/Тизенгауз_o_0.jpg" prev5url="images/Тизенгауз_o_preview_5.jpg" prev4url="images/Тизенгауз_o_preview_4.jpg" prev3url="images/Тизенгауз_o_preview_3.jpg" prev2url="images/Тизенгауз_o_preview_2.jpg" prev1url="images/Тизенгауз_o_preview_1.jpg" prev0url="images/Тизенгауз_o_preview_0.jpg" tile5url="images/Тизенгауз_o_5.jpg" tilesize="2561" tile4url="images/Тизенгауз_o_4.jpg" tile3url="images/Тизенгауз_o_3.jpg" tilescale="1.003904724716908" tile2url="images/Тизенгауз_o_2.jpg" tile1url="images/Тизенгауз_o_1.jpg">
+      <preview color="0x808080"/>
+    </input>
+    <control simulatemass="1" lockedmouse="0" lockedkeyboard="0" dblclickfullscreen="0" invertwheel="0" lockedwheel="0" invertcontrol="1" speedwheel="1" sensitivity="8"/>
+  </panorama>
+</tour>
