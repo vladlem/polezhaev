@@ -55,12 +55,17 @@ Rails.application.routes.draw do
   #   end
 
   #default route for if no controller specified
-  root :to => "application#index"
+  root :to => 'application#index'
+
+  # post '/application/:to_production', to: 'application#to_production', as: :to_production
+  # post '/application/:production', to: 'application#production', as: :production
+
+  #resources :application
 
   # # Install the default route as the lowest priority.
-  # match ':controller(/:action(/:id(.:format)))'
-  # match ':controller', :action => 'index'
-  # match ':controller/:action/:id.:format'
-  # match ':controller/:action/:id'
-  # match ':controller/:action'
+  match ':controller(/:action(/:id(.:format)))', via: [:get, :post]
+  match ':controller', :action => 'index', via: [:get, :post]
+  match ':controller/:action/:id.:format', via: [:get, :post]
+  match ':controller/:action/:id', via: [:get, :post]
+  match ':controller/:action', via: [:get, :post]
 end

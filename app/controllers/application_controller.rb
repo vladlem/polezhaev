@@ -3,11 +3,13 @@ class ApplicationController < ActionController::Base
   # For APIs, you may want to use :null_session instead.
   #protect_from_forgery with: :exception
 
- def index
+  def index
+  end
 
- end
-
- def production
-   render template: 'production'
- end
+  def production_image
+    respond_to do |format|
+      format.html { render partial: 'production_view'}
+#      format.js
+    end
+  end
 end
