@@ -6,10 +6,4 @@ class ApplicationController < ActionController::Base
   def index
   end
 
-  def production_image
-    respond_to do |format|
-      format.html { render partial: 'production_view'}
-#      format.js
-    end
-  end
 end

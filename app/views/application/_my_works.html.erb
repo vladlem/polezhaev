@@ -1,0 +1,44 @@
+<a name="my_works"></a>
+
+<div class="row">
+  <hr>
+  <div class="large-12 columns">
+    <h4>Мои работы</h4>
+    <p>Для просмотра кликните на каждое изображение.</p>
+
+    <ul class="clearing-thumbs small-block-grid-1 medium-block-grid-2 large-block-grid-4">
+      <li>
+        <a href="#" data-reveal-id="production_view"><%= image_tag('ustir_o_1.jpg', border: 0)%></a>
+
+        <div id="production_view" class="reveal-modal" data-reveal  role="dialog">
+          <%= render 'production_view' %>
+          <a class="close-reveal-modal" aria-label="Close">&#215;</a>
+        </div>
+      </li>
+      <li>
+        <a href="#" data-reveal-id="augustov"><%= image_tag('augustov.jpg', border: 0)%></a>
+
+        <div id="augustov" class="reveal-modal" data-reveal  role="dialog">
+          <%= render 'augustow_canal' %>
+          <a class="close-reveal-modal" aria-label="Close">&#215;</a>
+        </div>
+      </li>
+      <li>
+        <a href="#" data-reveal-id="park_of_gilibert"><%= image_tag('gilibert.jpg', border: 0)%></a>
+
+        <div id="park_of_gilibert" class="reveal-modal" data-reveal  role="dialog">
+          <%= render 'park_of_gilibert' %>
+          <a class="close-reveal-modal" aria-label="Close">&#215;</a>
+        </div>
+      </li>
+      <li>
+        <a href="#" data-reveal-id="old_building"><%= image_tag('gilibert.jpg', border: 0)%></a>
+
+        <div id="old_building" class="reveal-modal" data-reveal  role="dialog">
+          <%= link_to '', 'http://www.360cities.net/image/park-zhiliber-old-building-of-the-university', :remote => true %>
+          <a class="close-reveal-modal" aria-label="Close">&#215;</a>
+        </div>
+      </li>
+    </ul>
+  </div>
+</div>
