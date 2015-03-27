@@ -1,3 +1,21 @@
+<style>
+  .div_for_iframe {
+    width    : 900px;
+    height   : 700px;
+    overflow : hidden;
+    position : relative;
+  }
+
+  .iframe_for_remote_uir {
+    position : absolute;
+    top      : -50px;
+    left     : 0;
+    width    : 1150px;
+    height   : 947px;
+  }
+</style>
+
+
 <a name="my_works"></a>
 
 <div class="row">
@@ -8,34 +26,81 @@
 
     <ul class="clearing-thumbs small-block-grid-1 medium-block-grid-2 large-block-grid-4">
       <li>
-        <a href="#" data-reveal-id="production_view"><%= image_tag('ustir_o_1.jpg', border: 0)%></a>
+        <a href="#" data-reveal-id="production_view"><%= image_tag('ustir_o_1.jpg', border: 0) %></a>
 
-        <div id="production_view" class="reveal-modal" data-reveal  role="dialog">
+        <div id="production_view" class="reveal-modal" data-reveal role="dialog">
           <%= render 'production_view' %>
           <a class="close-reveal-modal" aria-label="Close">&#215;</a>
         </div>
       </li>
       <li>
-        <a href="#" data-reveal-id="augustov"><%= image_tag('augustov.jpg', border: 0)%></a>
+        <a href="#" data-reveal-id="augustov"><%= image_tag('augustow.jpg', border: 0) %></a>
 
-        <div id="augustov" class="reveal-modal" data-reveal  role="dialog">
+        <div id="augustov" class="reveal-modal" data-reveal role="dialog">
           <%= render 'augustow_canal' %>
           <a class="close-reveal-modal" aria-label="Close">&#215;</a>
         </div>
       </li>
       <li>
-        <a href="#" data-reveal-id="park_of_gilibert"><%= image_tag('gilibert.jpg', border: 0)%></a>
+        <a href="#" data-reveal-id="park_of_gilibert"><%= image_tag('gilibert.jpg', border: 0) %></a>
 
-        <div id="park_of_gilibert" class="reveal-modal" data-reveal  role="dialog">
+        <div id="park_of_gilibert" class="reveal-modal" data-reveal role="dialog">
           <%= render 'park_of_gilibert' %>
           <a class="close-reveal-modal" aria-label="Close">&#215;</a>
         </div>
       </li>
       <li>
-        <a href="#" data-reveal-id="old_building"><%= image_tag('gilibert.jpg', border: 0)%></a>
+        <a href="#" data-reveal-id="old_building"><%= label_tag "old_building" %></a>
 
-        <div id="old_building" class="reveal-modal" data-reveal  role="dialog">
-          <%= link_to '', 'http://www.360cities.net/image/park-zhiliber-old-building-of-the-university', :remote => true %>
+        <div id="old_building" class="reveal-modal" data-reveal role="dialog">
+          <h1>Старое здание университета в Гродно</h1>
+          <div class="div_for_iframe">
+            <iframe class="iframe_for_remote_uir" scrolling="no" src="http://www.360cities.net/image/park-zhiliber-old-building-of-the-university"></iframe>
+          </div>
+          <a class="close-reveal-modal" aria-label="Close">&#215;</a>
+        </div>
+      </li>
+      <li>
+        <a href="#" data-reveal-id="park_850_years"><%= label_tag "park_850_years" %></a>
+
+        <div id="park_850_years" class="reveal-modal" data-reveal role="dialog">
+          <h1>Парк 850 лет Гродно</h1>
+          <div class="div_for_iframe">
+            <iframe class="iframe_for_remote_uir" scrolling="no" src="http://www.360cities.net/image/park-850-years-grodno"></iframe>
+          </div>
+          <a class="close-reveal-modal" aria-label="Close">&#215;</a>
+        </div>
+      </li>
+      <li>
+        <a href="#" data-reveal-id="mason_house"><%= label_tag "mason_house" %></a>
+
+        <div id="mason_house" class="reveal-modal" data-reveal role="dialog">
+          <h1>Дом масонов в Гродно</h1>
+          <div class="div_for_iframe">
+            <iframe class="iframe_for_remote_uir" scrolling="no" src="http://www.360cities.net/image/park-zhiliber-masson-house"></iframe>
+          </div>
+          <a class="close-reveal-modal" aria-label="Close">&#215;</a>
+        </div>
+      </li>
+      <li>
+        <a href="#" data-reveal-id="autumn_park_of_gilibert"><%= label_tag "autumn_park_of_gilibert" %></a>
+
+        <div id="autumn_park_of_gilibert" class="reveal-modal" data-reveal role="dialog">
+          <h1>Оскень в парке имени Жилибера в Гродно</h1>
+          <div class="div_for_iframe">
+            <iframe class="iframe_for_remote_uir" scrolling="no" src="http://www.360cities.net/image/park-zhiliber-autumn"></iframe>
+          </div>
+          <a class="close-reveal-modal" aria-label="Close">&#215;</a>
+        </div>
+      </li>
+      <li>
+        <a href="#" data-reveal-id="urban_street"><%= image_tag('dvor_disk.jpg', border: 0) %></a>
+
+        <div id="urban_street" class="reveal-modal" data-reveal  role="dialog">
+          <h1>Улицы в Гродно</h1>
+          <div class="div_for_iframe">
+            <iframe class="iframe_for_remote_uir" scrolling="no" src="http://www.360cities.net/image/grodno-urban-patio"></iframe>
+          </div>
           <a class="close-reveal-modal" aria-label="Close">&#215;</a>
         </div>
       </li>

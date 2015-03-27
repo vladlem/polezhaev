@@ -9,11 +9,11 @@
   }
 
   function click_hidden_text () {
-      var read_more = document.getElementById('read_more');
-      var hidden_paragraph = document.getElementById('hidden_paragraph');
+    var read_more = document.getElementById('read_more');
+    var hidden_paragraph = document.getElementById('hidden_paragraph');
 
-      read_more.style.display = '';
-      hidden_paragraph.style.display = 'none';
+    read_more.style.display = '';
+    hidden_paragraph.style.display = 'none';
   }
 </script>
 
@@ -32,7 +32,6 @@
       карт позволяет мгновенно перемещаться в пространстве и знакомить с окружающей обстановкой.
       В результате Зритель попадает в некий виртуальный тур или виртуальную экскурсию.
     </p>
-
     <p>
       Для большей реалистичности погружения в пространство в виртуальные туры и
       сферические панорамы можно добавлять музыкальное сопровождение, фотографии и анимацию.
@@ -40,9 +39,11 @@
     </p>
     <p><a id="read_more" onclick="click_read_more()">Читать больше...</a></p>
   </div>
+
   <div class="large-4 columns">
-    <%= image_tag('vyacheslav.jpg', border: 0)%>
+    <%= image_tag('vyacheslav2.jpg', border: 0)%>
   </div>
+
   <div id="hidden_paragraph" class="large-12 columns" style="display:none">
     <p>
       Сферические панорамы и виртуальные туры могут быть использованы в различных областях,
@@ -57,6 +58,7 @@
     </p>
     <p><a id="hidden_text" onclick="click_hidden_text()">Скрыть текст...</a></p>
   </div>
+
   <div class="large-12 columns" >
     <p>
       Съемка простой сферической панорамы по времени занимает порядка 15 минут, последующая обработка и склейка 1-2 дня.
@@ -65,4 +67,5 @@
       Готовая работа предоставляется заказчику в электронном виде на носителе по согласованию: CD, Flash, другое.
     </p>
   </div>
+
 </div>
