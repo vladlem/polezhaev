@@ -6,4 +6,7 @@ class ApplicationController < ActionController::Base
   def index
   end
 
+  def production_view
+    render partial: 'production_view'
+  end
 end

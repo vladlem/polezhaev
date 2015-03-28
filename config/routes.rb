@@ -57,10 +57,7 @@ Rails.application.routes.draw do
   #default route for if no controller specified
   root :to => 'application#index'
 
-  # post '/application/:to_production', to: 'application#to_production', as: :to_production
-  # post '/application/:production', to: 'application#production', as: :production
-
-  #resources :application
+  get '/production_view' => 'application#production_view'
 
   # # Install the default route as the lowest priority.
   match ':controller(/:action(/:id(.:format)))', via: [:get, :post]
