@@ -3,6 +3,12 @@ class ApplicationController < ActionController::Base
   # For APIs, you may want to use :null_session instead.
   #protect_from_forgery with: :exception
 
+  attr_accessor :title
+
+  def initialize_for_layout
+    @title = 'Сферические панорамы'
+  end
+
   def index
   end
 
