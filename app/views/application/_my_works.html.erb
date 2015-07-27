@@ -36,7 +36,8 @@
 <div class="row">
   <hr>
   <div class="large-12 columns">
-    <h4>Мои работы</h4>
+    <h3>Мои работы</h3>
+    <h4>Сферические панорамы</h4>
     <p>Для просмотра кликните на каждое изображение.</p>
 
     <ul class="clearing-thumbs small-block-grid-1 medium-block-grid-2 large-block-grid-4">
@@ -67,61 +68,41 @@
           <a class="close-reveal-modal" aria-label="Close">&#215;</a>
         </div>
       </li>
-      <li>
-        <a href="#" data-reveal-id="old_building"><%= image_tag('old_building.jpg', border: 0) %></a>
 
-        <div id="old_building" class="reveal-modal" data-reveal role="dialog">
-          <h1>Старое здание университета в Гродно</h1>
-          <div class="div_for_iframe">
-            <iframe class="iframe_for_remote_url" scrolling="no" src="http://www.360cities.net/image/park-zhiliber-old-building-of-the-university"></iframe>
-          </div>
-          <a class="close-reveal-modal" aria-label="Close">&#215;</a>
-        </div>
-      </li>
-      <li>
-        <a href="#" data-reveal-id="park_850_years"><%= label_tag "park_850_years" %></a>
-
-        <div id="park_850_years" class="reveal-modal" data-reveal role="dialog">
-          <h1>Парк 850 лет Гродно</h1>
-          <div class="div_for_iframe">
-            <iframe class="iframe_for_remote_url" scrolling="no" src="http://www.360cities.net/image/park-850-years-grodno"></iframe>
-          </div>
-          <a class="close-reveal-modal" aria-label="Close">&#215;</a>
-        </div>
-      </li>
-      <li>
-        <a href="#" data-reveal-id="mason_house"><%= image_tag('mason_house.jpg', border: 0) %></a>
-
-        <div id="mason_house" class="reveal-modal" data-reveal role="dialog">
-          <h1>Дом масонов в Гродно</h1>
-          <div class="div_for_iframe">
-            <iframe class="iframe_for_remote_url" scrolling="no" src="http://www.360cities.net/image/park-zhiliber-masson-house"></iframe>
-          </div>
-          <a class="close-reveal-modal" aria-label="Close">&#215;</a>
-        </div>
-      </li>
-      <li>
-        <a href="#" data-reveal-id="autumn_park_of_gilibert"><%= image_tag('autumn_park.jpg', border: 0) %></a>
-
-        <div id="autumn_park_of_gilibert" class="reveal-modal" data-reveal role="dialog">
-          <h1>Оскень в парке имени Жилибера в Гродно</h1>
-          <div class="div_for_iframe">
-            <iframe class="iframe_for_remote_url" scrolling="no" src="http://www.360cities.net/image/park-zhiliber-autumn"></iframe>
-          </div>
-          <a class="close-reveal-modal" aria-label="Close">&#215;</a>
-        </div>
-      </li>
-      <li>
-        <a href="#" data-reveal-id="urban_street"><%= image_tag('dvor_disk.jpg', border: 0) %></a>
-
-        <div id="urban_street" class="reveal-modal" data-reveal  role="dialog">
-          <h1>Улицы в Гродно</h1>
-          <div class="div_for_iframe">
-            <iframe class="iframe_for_remote_url" scrolling="no" src="http://www.360cities.net/image/grodno-urban-patio"></iframe>
-          </div>
-          <a class="close-reveal-modal" aria-label="Close">&#215;</a>
-        </div>
-      </li>
     </ul>
+  </div>
+  <div class="row">
+    <hr>
+    <div class="large-12 columns">
+      <h4>Виртуальные туры</h4>
+      <p>Для просмотра кликните на каждое изображение.</p>
+      <ul class="clearing-thumbs small-block-grid-1 medium-block-grid-2 large-block-grid-4">
+        <li>
+          <a href="http://www.360cities.net/image/park-zhiliber-old-building-of-the-university" target="_blank">
+            <%= image_tag('old_building.jpg', border: 0) %>
+          </a>
+        </li>
+        <li>
+          <a href="http://www.360cities.net/image/park-850-years-grodno" target="_blank">
+            <%= label_tag "park_850_years" %>
+          </a>
+        </li>
+        <li>
+          <a href="http://www.360cities.net/image/park-zhiliber-masson-house" target="_blank">
+            <%= image_tag('mason_house.jpg', border: 0) %>
+          </a>
+        </li>
+        <li>
+          <a href="http://www.360cities.net/image/park-zhiliber-autumn" target="_blank">
+            <%= image_tag('autumn_park.jpg', border: 0) %>
+          </a>
+        </li>
+        <li>
+          <a href="http://www.360cities.net/image/grodno-urban-patio" target="_blank">
+            <%= image_tag('dvor_disk.jpg', border: 0) %>
+          </a>
+        </li>
+      </ul>
+    </div>
   </div>
 </div>
