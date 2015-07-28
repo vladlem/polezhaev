@@ -35,14 +35,12 @@
 
 <div class="row">
   <hr>
-  <div class="large-12 columns">
-    <h3>Мои работы</h3>
-    <h4>Сферические панорамы</h4>
-    <p>Для просмотра кликните на каждое изображение.</p>
-
-    <ul class="clearing-thumbs small-block-grid-1 medium-block-grid-2 large-block-grid-4">
+  <div class="large-12 columns title" >
+    <h4>Мои работы</h4>
+    <p><ul><li>Сферические панорамы</li></ul></p>
+    <ul class="clearing-thumbs small-block-grid-1 medium-block-grid-2 large-block-grid-3">
       <li>
-        <a href="#" data-reveal-id="production_view"><%= image_tag('ustir_o_1.jpg', border: 0) %></a>
+        <a href="#" data-reveal-id="production_view"><%= image_tag('ustir_o_1.jpg', border: 0, title: 'Для просмотра кликните на изображение') %></a>
 
         <div id="production_view" class="reveal-modal" data-reveal role="dialog">
           <h1>Производство</h1>
@@ -53,7 +51,7 @@
         </div>
       </li>
       <li>
-        <a href="#" data-reveal-id="augustov"><%= image_tag('augustow.jpg', border: 0) %></a>
+        <a href="#" data-reveal-id="augustov"><%= image_tag('augustow.jpg', border: 0, title: 'Для просмотра кликните на изображение') %></a>
 
         <div id="augustov" class="reveal-modal" data-reveal role="dialog">
           <%= render 'augustow_canal' %>
@@ -61,7 +59,7 @@
         </div>
       </li>
       <li>
-        <a href="#" data-reveal-id="park_of_gilibert"><%= image_tag('gilibert.jpg', border: 0) %></a>
+        <a href="#" data-reveal-id="park_of_gilibert"><%= image_tag('gilibert.jpg', border: 0, title: 'Для просмотра кликните на изображение') %></a>
 
         <div id="park_of_gilibert" class="reveal-modal" data-reveal role="dialog">
           <%= render 'park_of_gilibert' %>
@@ -74,32 +72,31 @@
   <div class="row">
     <hr>
     <div class="large-12 columns">
-      <h4>Виртуальные туры</h4>
-      <p>Для просмотра кликните на каждое изображение.</p>
-      <ul class="clearing-thumbs small-block-grid-1 medium-block-grid-2 large-block-grid-4">
+      <p><ul><li>Виртуальные туры</li></ul></p>
+      <ul class="clearing-thumbs small-block-grid-1 medium-block-grid-2 large-block-grid-5">
         <li>
           <a href="http://www.360cities.net/image/park-zhiliber-old-building-of-the-university" target="_blank">
-            <%= image_tag('old_building.jpg', border: 0) %>
+            <%= image_tag('old_building.jpg', border: 0, title: 'Для просмотра кликните на изображение') %>
           </a>
         </li>
         <li>
           <a href="http://www.360cities.net/image/park-850-years-grodno" target="_blank">
-            <%= label_tag "park_850_years" %>
+            <%= image_tag('850let.jpg', border: 0, title: 'Для просмотра кликните на изображение')  %>
           </a>
         </li>
         <li>
           <a href="http://www.360cities.net/image/park-zhiliber-masson-house" target="_blank">
-            <%= image_tag('mason_house.jpg', border: 0) %>
+            <%= image_tag('mason_house.jpg', border: 0, title: 'Для просмотра кликните на изображение') %>
           </a>
         </li>
         <li>
           <a href="http://www.360cities.net/image/park-zhiliber-autumn" target="_blank">
-            <%= image_tag('autumn_park.jpg', border: 0) %>
+            <%= image_tag('autumn_park.jpg', border: 0, title: 'Для просмотра кликните на изображение') %>
           </a>
         </li>
         <li>
           <a href="http://www.360cities.net/image/grodno-urban-patio" target="_blank">
-            <%= image_tag('dvor_disk.jpg', border: 0) %>
+            <%= image_tag('dvor_disk.jpg', border: 0, title: 'Для просмотра кликните на изображение') %>
           </a>
         </li>
       </ul>

@@ -6,7 +6,6 @@ class ApplicationController < ActionController::Base
   attr_accessor :title
 
   def initialize_for_layout
-    @title = 'Сферические панорамы'
   end
 
   def index
